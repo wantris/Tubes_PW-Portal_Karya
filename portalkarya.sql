@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 15, 2019 at 04:48 PM
+-- Generation Time: Dec 24, 2019 at 06:40 AM
 -- Server version: 10.4.8-MariaDB
 -- PHP Version: 7.2.24
 
@@ -57,7 +57,8 @@ CREATE TABLE `tbuser` (
 --
 
 INSERT INTO `tbuser` (`id_user`, `nama`, `email`, `username`, `password`, `level`, `foto`) VALUES
-(1, 'Nurlaela Khasannah', 'nur@gmail.com', 'ela', 'ela', 'admin', NULL);
+(1, 'Nurlaela Khasannah', 'nur@gmail.com', 'ela', 'ela', 'admin', NULL),
+(3, 'Wantrisnadi Gusti', 'wacik@gmail.com', 'wacik', 'wacik', 'user', NULL);
 
 --
 -- Indexes for dumped tables
@@ -83,7 +84,7 @@ ALTER TABLE `tbuser`
 -- AUTO_INCREMENT for table `tbuser`
 --
 ALTER TABLE `tbuser`
-  MODIFY `id_user` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id_user` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

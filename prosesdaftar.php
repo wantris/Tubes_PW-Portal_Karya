@@ -9,7 +9,7 @@
         $confirmpassword = $_POST['confirmpassword'];
             if ($password==$confirmpassword) {
                 $insert=mysqli_query($koneksi,"INSERT INTO tbuser VALUES (
-                    NULL,'$name','$email','$username','$password','$level','$_foto')");
+                    NULL,'$name','$email','$username','$password','$level',NULL)");
                 if ($insert) {
                     echo "<script>window.alert('Daftar Sukses dong');window.location.href='login.php'</script>";
                 }else{
