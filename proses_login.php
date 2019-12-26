@@ -19,7 +19,7 @@ session_start();
                 $_SESSION['level']=$ambil['level']; 
                 $_SESSION['iduser']=$ambil['id_user'];                                      
                 // echo $_SESSION['level'];
-                header("location:dashboard.php");
+                header("location:admin/admin.php");
             }
             else if ($ambil['level']=="user") {
                 $_SESSION['username']=$username;
@@ -27,7 +27,7 @@ session_start();
                 $_SESSION['iduser']=$ambil['id_user'];   
                 // echo $_SESSION['userid'];                                 
                 // echo $_SESSION['level'];
-                header("location:dashboard_user.php");
+                header("location:project/project.php");
             }
             else{
             echo "<script>window.alert('username dan password tidak terdaftar');window.location='login.php'</script>";

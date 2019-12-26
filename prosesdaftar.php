@@ -13,9 +13,9 @@
                 if ($insert) {
                     echo "<script>window.alert('Daftar Sukses dong');window.location.href='login.php'</script>";
                 }else{
-                    echo "<script>window.alert('Gagal Daftar sih');window.location='daftar.php'</script>";
+                    echo "<script>window.alert('Gagal Daftar sih');window.location='register.php'</script>";
                 }
             }else{
-                echo "<script>window.alert('Password tidak sesuai gaes');window.location='daftar.php'</script>";
+                echo "<script>window.alert('Password tidak sesuai gaes');window.location='register.php'</script>";
             }
     }
